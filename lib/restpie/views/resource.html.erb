@@ -1,0 +1,10 @@
+<div>
+	<%= render_partial :resource, :locals => {:resource => @resource, :application => @application} %>
+	<div class="methods tmargin10">
+		<span>Methods</span>
+		<hr>
+		<% @resource.methods.each do |id, method| %>
+			<%= render_partial :method, :locals => {:method => method} %>
+		<% end %>
+	</div>
+</div>

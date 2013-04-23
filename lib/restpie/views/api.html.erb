@@ -1,0 +1,9 @@
+<div class="resources">
+	<span>Resources</span>
+	<hr>
+<% unless @resource %>
+	<% @application[:resources].each do |id, resource| %>
+	<%= render_partial :resource, :locals => {:resource => resource, :application => @application} %>
+	<% end %>
+<% end %>
+</div>

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>API documentation</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+		<link type='text/css' rel='stylesheet' href='stylesheets/application.css'/>
+		<style>
+			body {
+				font: 13px/1.4 Helvetica,Arial,sans-serif;
+			} 
+			.content {
+				margin: 10px 100px;
+			}
+			.tmargin10 {
+				margin-top: 10px;
+			}
+			.tmargin5 {
+				margin-top: 5px;
+			}
+			a.link {
+				text-decoration: none;
+				color: #149BDF;
+			}
+			.breadcrumb {
+				list-style: none;
+				padding: 10px 0;
+				clear: both;
+			}
+		
+			.breadcrumb a {
+				text-decoration: none;
+			}
+			
+			.resources, .methods {
+				margin-top: 10px;
+			}
+			.italic {
+				font-style: italic;
+			}
+			.resources span, .methods span {
+				font-size: 1.4em;
+				font-weight: bold;
+			}
+			
+			.resource .method, .method .param {
+				font-size: 0.9em !important;
+			}
+			
+			.resource .title, .method .title {
+				padding: 5px 0;
+				font-size: 1.2em;
+			}
+			
+			.resource .title a, .method .title a {
+				font-size: 1.2em;
+				font-weight: bold;
+			}
+			
+			.resource a:hover, .method a:hover {
+				text-decoration: underline;
+			}
+			
+			table.methods, table.params {
+				width: 100%;
+				text-align: left;
+			}
+			
+			table.methods thead, table.params thead {
+				font-size: 1.1em;
+			}
+			
+			table.methods td, table.methods th, table.params td, table.params th {
+				border-bottom: 1px solid #dfdfdf;
+				padding: 5px 0;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="content">
+			<header><%= render_partial :header%></header>
+			<div class="container">
+				<div class="row">
+					<div id='container'>
+						<div class='breadcrumb'>
+							<span class='application'>Applications</span> >
+							<span class='application'><a class="link" href='<%=url_for(:applications, :show, :application_id => @application[:name])%>'><%= @application[:name] %></a></span>
+							<% if @resource %>
+							> <span><a class="link" href='#'><%= @resource.name.capitalize %></a></span>
+							<% end %>
+						</div>
+
+						<%= yield %>
+					</div>
+				</div>
+				<hr>
+			</div>
+		</div>
+	</body>
+</html>

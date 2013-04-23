@@ -1,0 +1,278 @@
+/Users/ganeshs/.passenger/standalone/3.0.18-x86_64-ruby1.9.2-macosx-10.7/support/lib/phusion_passenger/platform_info/binary_compatibility.rb:68: warning: Insecure world writable dir /usr/local in PATH, mode 040777
+[36m  DEBUG[0m -[33m [0m[35m    HEAD[0m ([35m[1m0.0566ms[0m[0m) / - [1m404[0m Not Found
+NoMethodError - undefined method `resources' for Restpie::API:Module:
+	/Volumes/data/ERP/services/restpie/example/restpie_example/app/controllers/example_controller.rb:12:in `block (2 levels) in <top (required)>'
+	/Users/ganeshs/.rvm/gems/ruby-1.9.2-p290/gems/padrino-core-0.10.5/lib/padrino-core/application/routing.rb:569:in `call'
+	/Users/ganeshs/.rvm/gems/ruby-1.9.2-p290/gems/padrino-core-0.10.5/lib/padrino-core/application/routing.rb:569:in `block in route'
+	/Users/ganeshs/.rvm/gems/ruby-1.9.2-p290/gems/padrino-core-0.10.5/lib/padrino-core/application/routing.rb:51:in `[]'
+	/Users/ganeshs/.rvm/gems/ruby-1.9.2-p290/gems/padrino-core-0.10.5/lib/padrino-core/application/routing.rb:51:in `block (3 levels) in process_destination_path'
+	/Users/ganeshs/.rvm/gems/ruby-1.9.2-p290/gems/sinatra-1.3.3/lib/sinatra/base.rb:851:in `route_eval'
+	/Users/ganeshs/.rvm/gems/ruby-1.9.2-p290/gems/padrino-core-0.10.5/lib/padrino-core/application/routing.rb:51:in `block (2 levels) in process_destination_path'
+	/Users/ganeshs/.rvm/gems/ruby-1.9.2-p290/gems/padrino-core-0.10.5/lib/padrino-core/application/routing.rb:51:in `catch'
+	/Users/ganeshs/.rvm/gems/ruby-1.9.2-p290/gems/padrino-core-0.10.5/lib/padrino-core/application/routing.rb:51:in `block in process_destination_path'
+	/Users/ganeshs/.rvm/gems/ruby-1.9.2-p290/gems/padrino-core-0.10.5/lib/padrino-core/application/routing.rb:25:in `instance_eval'
+	/Users/ganeshs/.rvm/gems/ruby-1.9.2-p290/gems/padrino-core-0.10.5/lib/padrino-core/application/routing.rb:25:in `process_destination_path'
+	(eval):16:in `block (2 levels) in inject_root_methods'
+	(eval):6:in `catch'
+	(eval):6:in `block in inject_root_methods'
+	(eval):98:in `block in inject_root_methods'
+	/Users/ganeshs/.rvm/gems/ruby-1.9.2-p290/gems/http_router-0.10.2/lib/http_router/node/root.rb:44:in `[]'
+	/Users/ganeshs/.rvm/gems/ruby-1.9.2-p290/gems/http_router-0.10.2/lib/http_router/node/root.rb:13:in `[]'
+	/Users/ganeshs/.rvm/gems/ruby-1.9.2-p290/gems/http_router-0.10.2/lib/http_router.rb:119:in `block in call'
+	/Users/ganeshs/.rvm/gems/ruby-1.9.2-p290/gems/http_router-0.10.2/lib/http_router.rb:119:in `catch'
+	/Users/ganeshs/.rvm/gems/ruby-1.9.2-p290/gems/http_router-0.10.2/lib/http_router.rb:119:in `call'
+	/Users/ganeshs/.rvm/gems/ruby-1.9.2-p290/gems/padrino-core-0.10.5/lib/padrino-core/application/routing.rb:910:in `route!'
+	/Users/ganeshs/.rvm/gems/ruby-1.9.2-p290/gems/padrino-core-0.10.5/lib/padrino-core/application/routing.rb:900:in `dispatch!'
+	/Users/ganeshs/.rvm/gems/ruby-1.9.2-p290/gems/sinatra-1.3.3/lib/sinatra/base.rb:769:in `block in call!'
+	/Users/ganeshs/.rvm/gems/ruby-1.9.2-p290/gems/sinatra-1.3.3/lib/sinatra/base.rb:921:in `block in invoke'
+	/Users/ganeshs/.rvm/gems/ruby-1.9.2-p290/gems/sinatra-1.3.3/lib/sinatra/base.rb:921:in `catch'
+	/Users/ganeshs/.rvm/gems/ruby-1.9.2-p290/gems/sinatra-1.3.3/lib/sinatra/base.rb:921:in `invoke'
+	/Users/ganeshs/.rvm/gems/ruby-1.9.2-p290/gems/sinatra-1.3.3/lib/sinatra/base.rb:769:in `call!'
+	/Users/ganeshs/.rvm/gems/ruby-1.9.2-p290/gems/sinatra-1.3.3/lib/sinatra/base.rb:755:in `call'
+	/Users/ganeshs/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.4.1/lib/rack/head.rb:9:in `call'
+	/Users/ganeshs/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.4.1/lib/rack/methodoverride.rb:21:in `call'
+	/Users/ganeshs/.rvm/gems/ruby-1.9.2-p290/gems/padrino-core-0.10.5/lib/padrino-core/reloader.rb:250:in `call'
+	/Users/ganeshs/.rvm/gems/ruby-1.9.2-p290/gems/padrino-core-0.10.5/lib/padrino-core/logger.rb:306:in `call'
+	/Users/ganeshs/.rvm/gems/ruby-1.9.2-p290/gems/sinatra-1.3.3/lib/sinatra/showexceptions.rb:21:in `call'
+	/Users/ganeshs/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.4.1/lib/rack/session/abstract/id.rb:205:in `context'
+	/Users/ganeshs/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.4.1/lib/rack/session/abstract/id.rb:200:in `call'
+	/Users/ganeshs/.rvm/gems/ruby-1.9.2-p290/gems/sinatra-1.3.3/lib/sinatra/base.rb:1389:in `block in call'
+	/Users/ganeshs/.rvm/gems/ruby-1.9.2-p290/gems/sinatra-1.3.3/lib/sinatra/base.rb:1471:in `synchronize'
+	/Users/ganeshs/.rvm/gems/ruby-1.9.2-p290/gems/sinatra-1.3.3/lib/sinatra/base.rb:1389:in `call'
+	/Users/ganeshs/.rvm/gems/ruby-1.9.2-p290/gems/padrino-core-0.10.5/lib/padrino-core/router.rb:83:in `block in call'
+	/Users/ganeshs/.rvm/gems/ruby-1.9.2-p290/gems/padrino-core-0.10.5/lib/padrino-core/router.rb:76:in `each'
+	/Users/ganeshs/.rvm/gems/ruby-1.9.2-p290/gems/padrino-core-0.10.5/lib/padrino-core/router.rb:76:in `call'
+	/Users/ganeshs/.passenger/standalone/3.0.18-x86_64-ruby1.9.2-macosx-10.7/support/lib/phusion_passenger/rack/request_handler.rb:96:in `process_request'
+	/Users/ganeshs/.passenger/standalone/3.0.18-x86_64-ruby1.9.2-macosx-10.7/support/lib/phusion_passenger/abstract_request_handler.rb:516:in `accept_and_process_next_request'
+	/Users/ganeshs/.passenger/standalone/3.0.18-x86_64-ruby1.9.2-macosx-10.7/support/lib/phusion_passenger/abstract_request_handler.rb:274:in `main_loop'
+	/Users/ganeshs/.passenger/standalone/3.0.18-x86_64-ruby1.9.2-macosx-10.7/support/lib/phusion_passenger/rack/application_spawner.rb:206:in `start_request_handler'
+	/Users/ganeshs/.passenger/standalone/3.0.18-x86_64-ruby1.9.2-macosx-10.7/support/lib/phusion_passenger/rack/application_spawner.rb:171:in `block in handle_spawn_application'
+	/Users/ganeshs/.passenger/standalone/3.0.18-x86_64-ruby1.9.2-macosx-10.7/support/lib/phusion_passenger/utils.rb:470:in `safe_fork'
+	/Users/ganeshs/.passenger/standalone/3.0.18-x86_64-ruby1.9.2-macosx-10.7/support/lib/phusion_passenger/rack/application_spawner.rb:166:in `handle_spawn_application'
+	/Users/ganeshs/.passenger/standalone/3.0.18-x86_64-ruby1.9.2-macosx-10.7/support/lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+	/Users/ganeshs/.passenger/standalone/3.0.18-x86_64-ruby1.9.2-macosx-10.7/support/lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+	/Users/ganeshs/.passenger/standalone/3.0.18-x86_64-ruby1.9.2-macosx-10.7/support/lib/phusion_passenger/abstract_server.rb:180:in `start'
+	/Users/ganeshs/.passenger/standalone/3.0.18-x86_64-ruby1.9.2-macosx-10.7/support/lib/phusion_passenger/rack/application_spawner.rb:129:in `start'
+	/Users/ganeshs/.passenger/standalone/3.0.18-x86_64-ruby1.9.2-macosx-10.7/support/lib/phusion_passenger/spawn_manager.rb:253:in `block (2 levels) in spawn_rack_application'
+	/Users/ganeshs/.passenger/standalone/3.0.18-x86_64-ruby1.9.2-macosx-10.7/support/lib/phusion_passenger/abstract_server_collection.rb:132:in `lookup_or_add'
+	/Users/ganeshs/.passenger/standalone/3.0.18-x86_64-ruby1.9.2-macosx-10.7/support/lib/phusion_passenger/spawn_manager.rb:246:in `block in spawn_rack_application'
+	/Users/ganeshs/.passenger/standalone/3.0.18-x86_64-ruby1.9.2-macosx-10.7/support/lib/phusion_passenger/abstract_server_collection.rb:82:in `block in synchronize'
+	<internal:prelude>:10:in `synchronize'
+	/Users/ganeshs/.passenger/standalone/3.0.18-x86_64-ruby1.9.2-macosx-10.7/support/lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+	/Users/ganeshs/.passenger/standalone/3.0.18-x86_64-ruby1.9.2-macosx-10.7/support/lib/phusion_passenger/spawn_manager.rb:244:in `spawn_rack_application'
+	/Users/ganeshs/.passenger/standalone/3.0.18-x86_64-ruby1.9.2-macosx-10.7/support/lib/phusion_passenger/spawn_manager.rb:137:in `spawn_application'
+	/Users/ganeshs/.passenger/standalone/3.0.18-x86_64-ruby1.9.2-macosx-10.7/support/lib/phusion_passenger/spawn_manager.rb:275:in `handle_spawn_application'
+	/Users/ganeshs/.passenger/standalone/3.0.18-x86_64-ruby1.9.2-macosx-10.7/support/lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+	/Users/ganeshs/.passenger/standalone/3.0.18-x86_64-ruby1.9.2-macosx-10.7/support/lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+	/Users/ganeshs/.passenger/standalone/3.0.18-x86_64-ruby1.9.2-macosx-10.7/support/helper-scripts/passenger-spawn-server:99:in `<main>'
+[36m  DEBUG[0m -[33m [0m[35m     GET[0m ([35m[1m0.0066ms[0m[0m) /__sinatra__/500.png - [1m200[0m OK
+NoMethodError - undefined method `resources' for Restpie::API:Module:
+	/Volumes/data/ERP/services/restpie/example/restpie_example/app/controllers/example_controller.rb:7:in `block (2 levels) in <top (required)>'
+	/Users/ganeshs/.rvm/gems/ruby-1.9.2-p290/gems/padrino-core-0.10.5/lib/padrino-core/application/routing.rb:569:in `call'
+	/Users/ganeshs/.rvm/gems/ruby-1.9.2-p290/gems/padrino-core-0.10.5/lib/padrino-core/application/routing.rb:569:in `block in route'
+	/Users/ganeshs/.rvm/gems/ruby-1.9.2-p290/gems/padrino-core-0.10.5/lib/padrino-core/application/routing.rb:51:in `[]'
+	/Users/ganeshs/.rvm/gems/ruby-1.9.2-p290/gems/padrino-core-0.10.5/lib/padrino-core/application/routing.rb:51:in `block (3 levels) in process_destination_path'
+	/Users/ganeshs/.rvm/gems/ruby-1.9.2-p290/gems/sinatra-1.3.3/lib/sinatra/base.rb:851:in `route_eval'
+	/Users/ganeshs/.rvm/gems/ruby-1.9.2-p290/gems/padrino-core-0.10.5/lib/padrino-core/application/routing.rb:51:in `block (2 levels) in process_destination_path'
+	/Users/ganeshs/.rvm/gems/ruby-1.9.2-p290/gems/padrino-core-0.10.5/lib/padrino-core/application/routing.rb:51:in `catch'
+	/Users/ganeshs/.rvm/gems/ruby-1.9.2-p290/gems/padrino-core-0.10.5/lib/padrino-core/application/routing.rb:51:in `block in process_destination_path'
+	/Users/ganeshs/.rvm/gems/ruby-1.9.2-p290/gems/padrino-core-0.10.5/lib/padrino-core/application/routing.rb:25:in `instance_eval'
+	/Users/ganeshs/.rvm/gems/ruby-1.9.2-p290/gems/padrino-core-0.10.5/lib/padrino-core/application/routing.rb:25:in `process_destination_path'
+	(eval):16:in `block (2 levels) in inject_root_methods'
+	(eval):6:in `catch'
+	(eval):6:in `block in inject_root_methods'
+	(eval):34:in `block in inject_root_methods'
+	/Users/ganeshs/.rvm/gems/ruby-1.9.2-p290/gems/http_router-0.10.2/lib/http_router/node/root.rb:44:in `[]'
+	/Users/ganeshs/.rvm/gems/ruby-1.9.2-p290/gems/http_router-0.10.2/lib/http_router.rb:119:in `block in call'
+	/Users/ganeshs/.rvm/gems/ruby-1.9.2-p290/gems/http_router-0.10.2/lib/http_router.rb:119:in `catch'
+	/Users/ganeshs/.rvm/gems/ruby-1.9.2-p290/gems/http_router-0.10.2/lib/http_router.rb:119:in `call'
+	/Users/ganeshs/.rvm/gems/ruby-1.9.2-p290/gems/padrino-core-0.10.5/lib/padrino-core/application/routing.rb:910:in `route!'
+	/Users/ganeshs/.rvm/gems/ruby-1.9.2-p290/gems/padrino-core-0.10.5/lib/padrino-core/application/routing.rb:900:in `dispatch!'
+	/Users/ganeshs/.rvm/gems/ruby-1.9.2-p290/gems/sinatra-1.3.3/lib/sinatra/base.rb:769:in `block in call!'
+	/Users/ganeshs/.rvm/gems/ruby-1.9.2-p290/gems/sinatra-1.3.3/lib/sinatra/base.rb:921:in `block in invoke'
+	/Users/ganeshs/.rvm/gems/ruby-1.9.2-p290/gems/sinatra-1.3.3/lib/sinatra/base.rb:921:in `catch'
+	/Users/ganeshs/.rvm/gems/ruby-1.9.2-p290/gems/sinatra-1.3.3/lib/sinatra/base.rb:921:in `invoke'
+	/Users/ganeshs/.rvm/gems/ruby-1.9.2-p290/gems/sinatra-1.3.3/lib/sinatra/base.rb:769:in `call!'
+	/Users/ganeshs/.rvm/gems/ruby-1.9.2-p290/gems/sinatra-1.3.3/lib/sinatra/base.rb:755:in `call'
+	/Users/ganeshs/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.4.1/lib/rack/head.rb:9:in `call'
+	/Users/ganeshs/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.4.1/lib/rack/methodoverride.rb:21:in `call'
+	/Users/ganeshs/.rvm/gems/ruby-1.9.2-p290/gems/padrino-core-0.10.5/lib/padrino-core/reloader.rb:250:in `call'
+	/Users/ganeshs/.rvm/gems/ruby-1.9.2-p290/gems/padrino-core-0.10.5/lib/padrino-core/logger.rb:306:in `call'
+	/Users/ganeshs/.rvm/gems/ruby-1.9.2-p290/gems/sinatra-1.3.3/lib/sinatra/showexceptions.rb:21:in `call'
+	/Users/ganeshs/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.4.1/lib/rack/session/abstract/id.rb:205:in `context'
+	/Users/ganeshs/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.4.1/lib/rack/session/abstract/id.rb:200:in `call'
+	/Users/ganeshs/.rvm/gems/ruby-1.9.2-p290/gems/sinatra-1.3.3/lib/sinatra/base.rb:1389:in `block in call'
+	/Users/ganeshs/.rvm/gems/ruby-1.9.2-p290/gems/sinatra-1.3.3/lib/sinatra/base.rb:1471:in `synchronize'
+	/Users/ganeshs/.rvm/gems/ruby-1.9.2-p290/gems/sinatra-1.3.3/lib/sinatra/base.rb:1389:in `call'
+	/Users/ganeshs/.rvm/gems/ruby-1.9.2-p290/gems/padrino-core-0.10.5/lib/padrino-core/router.rb:83:in `block in call'
+	/Users/ganeshs/.rvm/gems/ruby-1.9.2-p290/gems/padrino-core-0.10.5/lib/padrino-core/router.rb:76:in `each'
+	/Users/ganeshs/.rvm/gems/ruby-1.9.2-p290/gems/padrino-core-0.10.5/lib/padrino-core/router.rb:76:in `call'
+	/Users/ganeshs/.passenger/standalone/3.0.18-x86_64-ruby1.9.2-macosx-10.7/support/lib/phusion_passenger/rack/request_handler.rb:96:in `process_request'
+	/Users/ganeshs/.passenger/standalone/3.0.18-x86_64-ruby1.9.2-macosx-10.7/support/lib/phusion_passenger/abstract_request_handler.rb:516:in `accept_and_process_next_request'
+	/Users/ganeshs/.passenger/standalone/3.0.18-x86_64-ruby1.9.2-macosx-10.7/support/lib/phusion_passenger/abstract_request_handler.rb:274:in `main_loop'
+	/Users/ganeshs/.passenger/standalone/3.0.18-x86_64-ruby1.9.2-macosx-10.7/support/lib/phusion_passenger/rack/application_spawner.rb:206:in `start_request_handler'
+	/Users/ganeshs/.passenger/standalone/3.0.18-x86_64-ruby1.9.2-macosx-10.7/support/lib/phusion_passenger/rack/application_spawner.rb:171:in `block in handle_spawn_application'
+	/Users/ganeshs/.passenger/standalone/3.0.18-x86_64-ruby1.9.2-macosx-10.7/support/lib/phusion_passenger/utils.rb:470:in `safe_fork'
+	/Users/ganeshs/.passenger/standalone/3.0.18-x86_64-ruby1.9.2-macosx-10.7/support/lib/phusion_passenger/rack/application_spawner.rb:166:in `handle_spawn_application'
+	/Users/ganeshs/.passenger/standalone/3.0.18-x86_64-ruby1.9.2-macosx-10.7/support/lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+	/Users/ganeshs/.passenger/standalone/3.0.18-x86_64-ruby1.9.2-macosx-10.7/support/lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+	/Users/ganeshs/.passenger/standalone/3.0.18-x86_64-ruby1.9.2-macosx-10.7/support/lib/phusion_passenger/abstract_server.rb:180:in `start'
+	/Users/ganeshs/.passenger/standalone/3.0.18-x86_64-ruby1.9.2-macosx-10.7/support/lib/phusion_passenger/rack/application_spawner.rb:129:in `start'
+	/Users/ganeshs/.passenger/standalone/3.0.18-x86_64-ruby1.9.2-macosx-10.7/support/lib/phusion_passenger/spawn_manager.rb:253:in `block (2 levels) in spawn_rack_application'
+	/Users/ganeshs/.passenger/standalone/3.0.18-x86_64-ruby1.9.2-macosx-10.7/support/lib/phusion_passenger/abstract_server_collection.rb:132:in `lookup_or_add'
+	/Users/ganeshs/.passenger/standalone/3.0.18-x86_64-ruby1.9.2-macosx-10.7/support/lib/phusion_passenger/spawn_manager.rb:246:in `block in spawn_rack_application'
+	/Users/ganeshs/.passenger/standalone/3.0.18-x86_64-ruby1.9.2-macosx-10.7/support/lib/phusion_passenger/abstract_server_collection.rb:82:in `block in synchronize'
+	<internal:prelude>:10:in `synchronize'
+	/Users/ganeshs/.passenger/standalone/3.0.18-x86_64-ruby1.9.2-macosx-10.7/support/lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+	/Users/ganeshs/.passenger/standalone/3.0.18-x86_64-ruby1.9.2-macosx-10.7/support/lib/phusion_passenger/spawn_manager.rb:244:in `spawn_rack_application'
+	/Users/ganeshs/.passenger/standalone/3.0.18-x86_64-ruby1.9.2-macosx-10.7/support/lib/phusion_passenger/spawn_manager.rb:137:in `spawn_application'
+	/Users/ganeshs/.passenger/standalone/3.0.18-x86_64-ruby1.9.2-macosx-10.7/support/lib/phusion_passenger/spawn_manager.rb:275:in `handle_spawn_application'
+	/Users/ganeshs/.passenger/standalone/3.0.18-x86_64-ruby1.9.2-macosx-10.7/support/lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+	/Users/ganeshs/.passenger/standalone/3.0.18-x86_64-ruby1.9.2-macosx-10.7/support/lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+	/Users/ganeshs/.passenger/standalone/3.0.18-x86_64-ruby1.9.2-macosx-10.7/support/helper-scripts/passenger-spawn-server:99:in `<main>'
+[36m  DEBUG[0m -[33m [0m[33m  RELOAD[0m ([33m[1m0.0193ms[0m[0m) /Volumes/data/ERP/services/restpie/example/restpie_example/app/controllers/example_controller.rb
+[36m  DEBUG[0m -[33m [0m[35m     GET[0m ([35m[1m0.1158ms[0m[0m) /example/api - [1m200[0m OK
+[36m  DEBUG[0m -[33m [0m[35m     GET[0m ([35m[1m0.0028ms[0m[0m) / - [1m404[0m Not Found
+[36m  DEBUG[0m -[33m [0m[35m     GET[0m ([35m[1m0.0135ms[0m[0m) /api/ - [1m302[0m Found
+[36m  DEBUG[0m -[33m [0m[33mTEMPLATE[0m ([33m[1m0.0006ms[0m[0m) /api.html
+[36m  DEBUG[0m -[33m [0m[33mTEMPLATE[0m ([33m[1m0.0002ms[0m[0m) /layouts/application.html
+[36m  DEBUG[0m -[33m [0m[33mTEMPLATE[0m ([33m[1m0.0002ms[0m[0m) /_resource.html
+[36m  DEBUG[0m -[33m [0m[33mTEMPLATE[0m ([33m[1m0.0003ms[0m[0m) /_header.html
+[36m  DEBUG[0m -[33m [0m[35m     GET[0m ([35m[1m0.0132ms[0m[0m) /api/applications/show/RestpieExample - [1m200[0m OK
+[36m  DEBUG[0m -[33m [0m[35m     GET[0m ([35m[1m0.0013ms[0m[0m) /api/applications/show/stylesheets/application.css - [1m404[0m Not Found
+[36m  DEBUG[0m -[33m [0m[33mTEMPLATE[0m ([33m[1m0.0002ms[0m[0m) /api.html
+[36m  DEBUG[0m -[33m [0m[33mTEMPLATE[0m ([33m[1m0.0001ms[0m[0m) /layouts/application.html
+[36m  DEBUG[0m -[33m [0m[33mTEMPLATE[0m ([33m[1m0.0001ms[0m[0m) /_resource.html
+[36m  DEBUG[0m -[33m [0m[33mTEMPLATE[0m ([33m[1m0.0002ms[0m[0m) /_header.html
+[36m  DEBUG[0m -[33m [0m[35m     GET[0m ([35m[1m0.0098ms[0m[0m) /api/applications/show/RestpieExample - [1m200[0m OK
+[36m  DEBUG[0m -[33m [0m[35m     GET[0m ([35m[1m0.0008ms[0m[0m) /api/applications/show/stylesheets/application.css - [1m404[0m Not Found
+[36m  DEBUG[0m -[33m [0m[33mTEMPLATE[0m ([33m[1m0.0002ms[0m[0m) /api.html
+[36m  DEBUG[0m -[33m [0m[33mTEMPLATE[0m ([33m[1m0.0002ms[0m[0m) /layouts/application.html
+[36m  DEBUG[0m -[33m [0m[33mTEMPLATE[0m ([33m[1m0.0002ms[0m[0m) /_resource.html
+[36m  DEBUG[0m -[33m [0m[33mTEMPLATE[0m ([33m[1m0.0003ms[0m[0m) /_resource.html
+[36m  DEBUG[0m -[33m [0m[33mTEMPLATE[0m ([33m[1m0.0003ms[0m[0m) /_header.html
+[36m  DEBUG[0m -[33m [0m[35m     GET[0m ([35m[1m0.0126ms[0m[0m) /api/applications/show/RestpieApp - [1m200[0m OK
+[36m  DEBUG[0m -[33m [0m[35m     GET[0m ([35m[1m0.0026ms[0m[0m) /api/applications/show/stylesheets/application.css - [1m404[0m Not Found
+[36m  DEBUG[0m -[33m [0m[33mTEMPLATE[0m ([33m[1m0.0001ms[0m[0m) /api.html
+[36m  DEBUG[0m -[33m [0m[33mTEMPLATE[0m ([33m[1m0.0001ms[0m[0m) /layouts/application.html
+[36m  DEBUG[0m -[33m [0m[33mTEMPLATE[0m ([33m[1m0.0001ms[0m[0m) /_resource.html
+[36m  DEBUG[0m -[33m [0m[33mTEMPLATE[0m ([33m[1m0.0001ms[0m[0m) /_resource.html
+[36m  DEBUG[0m -[33m [0m[33mTEMPLATE[0m ([33m[1m0.0002ms[0m[0m) /_header.html
+[36m  DEBUG[0m -[33m [0m[35m     GET[0m ([35m[1m0.0112ms[0m[0m) /api/applications/show/RestpieApp - [1m200[0m OK
+[36m  DEBUG[0m -[33m [0m[35m     GET[0m ([35m[1m0.0009ms[0m[0m) /api/applications/show/stylesheets/application.css - [1m404[0m Not Found
+[36m  DEBUG[0m -[33m [0m[33mTEMPLATE[0m ([33m[1m0.0002ms[0m[0m) /api.html
+[36m  DEBUG[0m -[33m [0m[33mTEMPLATE[0m ([33m[1m0.0002ms[0m[0m) /layouts/application.html
+[36m  DEBUG[0m -[33m [0m[33mTEMPLATE[0m ([33m[1m0.0002ms[0m[0m) /_resource.html
+[36m  DEBUG[0m -[33m [0m[33mTEMPLATE[0m ([33m[1m0.0002ms[0m[0m) /_resource.html
+[36m  DEBUG[0m -[33m [0m[33mTEMPLATE[0m ([33m[1m0.0002ms[0m[0m) /_header.html
+[36m  DEBUG[0m -[33m [0m[35m     GET[0m ([35m[1m0.0108ms[0m[0m) /api/applications/show/RestpieApp - [1m200[0m OK
+[36m  DEBUG[0m -[33m [0m[35m     GET[0m ([35m[1m0.0011ms[0m[0m) /api/applications/show/stylesheets/application.css - [1m404[0m Not Found
+[36m  DEBUG[0m -[33m [0m[33mTEMPLATE[0m ([33m[1m0.0002ms[0m[0m) /api.html
+[36m  DEBUG[0m -[33m [0m[33mTEMPLATE[0m ([33m[1m0.0001ms[0m[0m) /layouts/application.html
+[36m  DEBUG[0m -[33m [0m[33mTEMPLATE[0m ([33m[1m0.0001ms[0m[0m) /_resource.html
+[36m  DEBUG[0m -[33m [0m[33mTEMPLATE[0m ([33m[1m0.0001ms[0m[0m) /_resource.html
+[36m  DEBUG[0m -[33m [0m[33mTEMPLATE[0m ([33m[1m0.0003ms[0m[0m) /_header.html
+[36m  DEBUG[0m -[33m [0m[35m     GET[0m ([35m[1m0.0113ms[0m[0m) /api/applications/show/RestpieApp - [1m200[0m OK
+[36m  DEBUG[0m -[33m [0m[35m     GET[0m ([35m[1m0.0009ms[0m[0m) /api/applications/show/stylesheets/application.css - [1m404[0m Not Found
+[36m  DEBUG[0m -[33m [0m[33m  RELOAD[0m ([33m[1m0.0190ms[0m[0m) /Volumes/data/ERP/services/restpie/example/restpie_example/app/controllers/example_controller.rb
+[36m  DEBUG[0m -[33m [0m[33mTEMPLATE[0m ([33m[1m0.0002ms[0m[0m) /api.html
+[36m  DEBUG[0m -[33m [0m[33mTEMPLATE[0m ([33m[1m0.0001ms[0m[0m) /layouts/application.html
+[36m  DEBUG[0m -[33m [0m[33mTEMPLATE[0m ([33m[1m0.0002ms[0m[0m) /_resource.html
+[36m  DEBUG[0m -[33m [0m[33mTEMPLATE[0m ([33m[1m0.0002ms[0m[0m) /_resource.html
+[36m  DEBUG[0m -[33m [0m[33mTEMPLATE[0m ([33m[1m0.0003ms[0m[0m) /_header.html
+[36m  DEBUG[0m -[33m [0m[35m     GET[0m ([35m[1m0.1476ms[0m[0m) /api/applications/show/RestpieApp - [1m200[0m OK
+[36m  DEBUG[0m -[33m [0m[35m     GET[0m ([35m[1m0.0008ms[0m[0m) /api/applications/show/stylesheets/application.css - [1m404[0m Not Found
+[36m  DEBUG[0m -[33m [0m[33mTEMPLATE[0m ([33m[1m0.0001ms[0m[0m) /api.html
+[36m  DEBUG[0m -[33m [0m[33mTEMPLATE[0m ([33m[1m0.0001ms[0m[0m) /layouts/application.html
+[36m  DEBUG[0m -[33m [0m[33mTEMPLATE[0m ([33m[1m0.0001ms[0m[0m) /_resource.html
+[36m  DEBUG[0m -[33m [0m[33mTEMPLATE[0m ([33m[1m0.0002ms[0m[0m) /_header.html
+[36m  DEBUG[0m -[33m [0m[35m     GET[0m ([35m[1m0.0085ms[0m[0m) /api/applications/show/RestpieExample - [1m200[0m OK
+[36m  DEBUG[0m -[33m [0m[35m     GET[0m ([35m[1m0.0009ms[0m[0m) /api/applications/show/stylesheets/application.css - [1m404[0m Not Found
+[36m  DEBUG[0m -[33m [0m[33mTEMPLATE[0m ([33m[1m0.0002ms[0m[0m) /api.html
+[36m  DEBUG[0m -[33m [0m[33mTEMPLATE[0m ([33m[1m0.0001ms[0m[0m) /layouts/application.html
+[36m  DEBUG[0m -[33m [0m[33mTEMPLATE[0m ([33m[1m0.0001ms[0m[0m) /_resource.html
+[36m  DEBUG[0m -[33m [0m[33mTEMPLATE[0m ([33m[1m0.0002ms[0m[0m) /_resource.html
+[36m  DEBUG[0m -[33m [0m[33mTEMPLATE[0m ([33m[1m0.0002ms[0m[0m) /_header.html
+[36m  DEBUG[0m -[33m [0m[35m     GET[0m ([35m[1m0.0121ms[0m[0m) /api/applications/show/RestpieApp - [1m200[0m OK
+[36m  DEBUG[0m -[33m [0m[35m     GET[0m ([35m[1m0.0014ms[0m[0m) /api/applications/show/stylesheets/application.css - [1m404[0m Not Found
+[36m  DEBUG[0m -[33m [0m[33mTEMPLATE[0m ([33m[1m0.0002ms[0m[0m) /api.html
+[36m  DEBUG[0m -[33m [0m[33mTEMPLATE[0m ([33m[1m0.0001ms[0m[0m) /layouts/application.html
+[36m  DEBUG[0m -[33m [0m[33mTEMPLATE[0m ([33m[1m0.0003ms[0m[0m) /_resource.html
+[36m  DEBUG[0m -[33m [0m[33mTEMPLATE[0m ([33m[1m0.0002ms[0m[0m) /_resource.html
+[36m  DEBUG[0m -[33m [0m[33mTEMPLATE[0m ([33m[1m0.0002ms[0m[0m) /_header.html
+[36m  DEBUG[0m -[33m [0m[35m     GET[0m ([35m[1m0.0115ms[0m[0m) /api/applications/show/RestpieApp - [1m200[0m OK
+[36m  DEBUG[0m -[33m [0m[35m     GET[0m ([35m[1m0.0009ms[0m[0m) /api/applications/show/stylesheets/application.css - [1m404[0m Not Found
+[36m  DEBUG[0m -[33m [0m[33mTEMPLATE[0m ([33m[1m0.0002ms[0m[0m) /api.html
+[36m  DEBUG[0m -[33m [0m[33mTEMPLATE[0m ([33m[1m0.0002ms[0m[0m) /layouts/application.html
+[36m  DEBUG[0m -[33m [0m[33mTEMPLATE[0m ([33m[1m0.0002ms[0m[0m) /_resource.html
+[36m  DEBUG[0m -[33m [0m[33mTEMPLATE[0m ([33m[1m0.0002ms[0m[0m) /_header.html
+[36m  DEBUG[0m -[33m [0m[35m     GET[0m ([35m[1m0.0100ms[0m[0m) /api/applications/show/RestpieExample - [1m200[0m OK
+[36m  DEBUG[0m -[33m [0m[35m     GET[0m ([35m[1m0.0029ms[0m[0m) /api/applications/show/stylesheets/application.css - [1m404[0m Not Found
+[36m  DEBUG[0m -[33m [0m[33mTEMPLATE[0m ([33m[1m0.0002ms[0m[0m) /api.html
+[36m  DEBUG[0m -[33m [0m[33mTEMPLATE[0m ([33m[1m0.0001ms[0m[0m) /layouts/application.html
+[36m  DEBUG[0m -[33m [0m[33mTEMPLATE[0m ([33m[1m0.0002ms[0m[0m) /_resource.html
+[36m  DEBUG[0m -[33m [0m[33mTEMPLATE[0m ([33m[1m0.0002ms[0m[0m) /_resource.html
+[36m  DEBUG[0m -[33m [0m[33mTEMPLATE[0m ([33m[1m0.0002ms[0m[0m) /_header.html
+[36m  DEBUG[0m -[33m [0m[35m     GET[0m ([35m[1m0.0124ms[0m[0m) /api/applications/show/RestpieApp - [1m200[0m OK
+[36m  DEBUG[0m -[33m [0m[35m     GET[0m ([35m[1m0.0011ms[0m[0m) /api/applications/show/stylesheets/application.css - [1m404[0m Not Found
+[36m  DEBUG[0m -[33m [0m[33mTEMPLATE[0m ([33m[1m0.0001ms[0m[0m) /api.html
+[36m  DEBUG[0m -[33m [0m[33mTEMPLATE[0m ([33m[1m0.0001ms[0m[0m) /layouts/application.html
+[36m  DEBUG[0m -[33m [0m[33mTEMPLATE[0m ([33m[1m0.0002ms[0m[0m) /_resource.html
+[36m  DEBUG[0m -[33m [0m[33mTEMPLATE[0m ([33m[1m0.0002ms[0m[0m) /_resource.html
+[36m  DEBUG[0m -[33m [0m[33mTEMPLATE[0m ([33m[1m0.0002ms[0m[0m) /_header.html
+[36m  DEBUG[0m -[33m [0m[35m     GET[0m ([35m[1m0.0119ms[0m[0m) /api/applications/show/RestpieApp - [1m200[0m OK
+[36m  DEBUG[0m -[33m [0m[35m     GET[0m ([35m[1m0.0011ms[0m[0m) /api/applications/show/stylesheets/application.css - [1m404[0m Not Found
+[36m  DEBUG[0m -[33m [0m[33mTEMPLATE[0m ([33m[1m0.0002ms[0m[0m) /resource.html
+[36m  DEBUG[0m -[33m [0m[33mTEMPLATE[0m ([33m[1m0.0001ms[0m[0m) /layouts/application.html
+[36m  DEBUG[0m -[33m [0m[33mTEMPLATE[0m ([33m[1m0.0001ms[0m[0m) /_resource.html
+[36m  DEBUG[0m -[33m [0m[33mTEMPLATE[0m ([33m[1m0.0001ms[0m[0m) /_method.html
+[36m  DEBUG[0m -[33m [0m[33mTEMPLATE[0m ([33m[1m0.0002ms[0m[0m) /_method.html
+[36m  DEBUG[0m -[33m [0m[33mTEMPLATE[0m ([33m[1m0.0001ms[0m[0m) /_header.html
+[36m  DEBUG[0m -[33m [0m[35m     GET[0m ([35m[1m0.0099ms[0m[0m) /api/applications/RestpieApp/resources/show/resources - [1m200[0m OK
+[36m  DEBUG[0m -[33m [0m[35m     GET[0m ([35m[1m0.0008ms[0m[0m) /api/applications/RestpieApp/resources/show/stylesheets/application.css - [1m404[0m Not Found
+[36m  DEBUG[0m -[33m [0m[33mTEMPLATE[0m ([33m[1m0.0002ms[0m[0m) /resource.html
+[36m  DEBUG[0m -[33m [0m[33mTEMPLATE[0m ([33m[1m0.0001ms[0m[0m) /layouts/application.html
+[36m  DEBUG[0m -[33m [0m[33mTEMPLATE[0m ([33m[1m0.0001ms[0m[0m) /_resource.html
+[36m  DEBUG[0m -[33m [0m[33mTEMPLATE[0m ([33m[1m0.0001ms[0m[0m) /_method.html
+[36m  DEBUG[0m -[33m [0m[33mTEMPLATE[0m ([33m[1m0.0001ms[0m[0m) /_method.html
+[36m  DEBUG[0m -[33m [0m[33mTEMPLATE[0m ([33m[1m0.0001ms[0m[0m) /_header.html
+[36m  DEBUG[0m -[33m [0m[35m     GET[0m ([35m[1m0.0117ms[0m[0m) /api/applications/RestpieApp/resources/show/resources - [1m200[0m OK
+[36m  DEBUG[0m -[33m [0m[35m     GET[0m ([35m[1m0.0009ms[0m[0m) /api/applications/RestpieApp/resources/show/stylesheets/application.css - [1m404[0m Not Found
+[36m  DEBUG[0m -[33m [0m[33mTEMPLATE[0m ([33m[1m0.0001ms[0m[0m) /resource.html
+[36m  DEBUG[0m -[33m [0m[33mTEMPLATE[0m ([33m[1m0.0001ms[0m[0m) /layouts/application.html
+[36m  DEBUG[0m -[33m [0m[33mTEMPLATE[0m ([33m[1m0.0001ms[0m[0m) /_resource.html
+[36m  DEBUG[0m -[33m [0m[33mTEMPLATE[0m ([33m[1m0.0002ms[0m[0m) /_method.html
+[36m  DEBUG[0m -[33m [0m[33mTEMPLATE[0m ([33m[1m0.0002ms[0m[0m) /_method.html
+[36m  DEBUG[0m -[33m [0m[33mTEMPLATE[0m ([33m[1m0.0002ms[0m[0m) /_header.html
+[36m  DEBUG[0m -[33m [0m[35m     GET[0m ([35m[1m0.0122ms[0m[0m) /api/applications/RestpieApp/resources/show/resources - [1m200[0m OK
+[36m  DEBUG[0m -[33m [0m[35m     GET[0m ([35m[1m0.0012ms[0m[0m) /api/applications/RestpieApp/resources/show/stylesheets/application.css - [1m404[0m Not Found
+[36m  DEBUG[0m -[33m [0m[33mTEMPLATE[0m ([33m[1m0.0002ms[0m[0m) /resource.html
+[36m  DEBUG[0m -[33m [0m[33mTEMPLATE[0m ([33m[1m0.0001ms[0m[0m) /layouts/application.html
+[36m  DEBUG[0m -[33m [0m[33mTEMPLATE[0m ([33m[1m0.0002ms[0m[0m) /_resource.html
+[36m  DEBUG[0m -[33m [0m[33mTEMPLATE[0m ([33m[1m0.0002ms[0m[0m) /_method.html
+[36m  DEBUG[0m -[33m [0m[33mTEMPLATE[0m ([33m[1m0.0002ms[0m[0m) /_method.html
+[36m  DEBUG[0m -[33m [0m[33mTEMPLATE[0m ([33m[1m0.0002ms[0m[0m) /_header.html
+[36m  DEBUG[0m -[33m [0m[35m     GET[0m ([35m[1m0.0111ms[0m[0m) /api/applications/RestpieApp/resources/show/resources - [1m200[0m OK
+[36m  DEBUG[0m -[33m [0m[35m     GET[0m ([35m[1m0.0009ms[0m[0m) /api/applications/RestpieApp/resources/show/stylesheets/application.css - [1m404[0m Not Found
+[36m  DEBUG[0m -[33m [0m[33mTEMPLATE[0m ([33m[1m0.0002ms[0m[0m) /api.html
+[36m  DEBUG[0m -[33m [0m[33mTEMPLATE[0m ([33m[1m0.0001ms[0m[0m) /layouts/application.html
+[36m  DEBUG[0m -[33m [0m[33mTEMPLATE[0m ([33m[1m0.0001ms[0m[0m) /_resource.html
+[36m  DEBUG[0m -[33m [0m[33mTEMPLATE[0m ([33m[1m0.0001ms[0m[0m) /_resource.html
+[36m  DEBUG[0m -[33m [0m[33mTEMPLATE[0m ([33m[1m0.0002ms[0m[0m) /_header.html
+[36m  DEBUG[0m -[33m [0m[35m     GET[0m ([35m[1m0.0094ms[0m[0m) /api/applications/show/RestpieApp - [1m200[0m OK
+[36m  DEBUG[0m -[33m [0m[35m     GET[0m ([35m[1m0.0008ms[0m[0m) /api/applications/show/stylesheets/application.css - [1m404[0m Not Found
+[36m  DEBUG[0m -[33m [0m[33mTEMPLATE[0m ([33m[1m0.0002ms[0m[0m) /api.html
+[36m  DEBUG[0m -[33m [0m[33mTEMPLATE[0m ([33m[1m0.0001ms[0m[0m) /layouts/application.html
+[36m  DEBUG[0m -[33m [0m[33mTEMPLATE[0m ([33m[1m0.0002ms[0m[0m) /_resource.html
+[36m  DEBUG[0m -[33m [0m[33mTEMPLATE[0m ([33m[1m0.0002ms[0m[0m) /_resource.html
+[36m  DEBUG[0m -[33m [0m[33mTEMPLATE[0m ([33m[1m0.0002ms[0m[0m) /_header.html
+[36m  DEBUG[0m -[33m [0m[35m     GET[0m ([35m[1m0.0117ms[0m[0m) /api/applications/show/RestpieApp - [1m200[0m OK
+[36m  DEBUG[0m -[33m [0m[35m     GET[0m ([35m[1m0.0008ms[0m[0m) /api/applications/show/stylesheets/application.css - [1m404[0m Not Found
+[36m  DEBUG[0m -[33m [0m[33mTEMPLATE[0m ([33m[1m0.0003ms[0m[0m) /resource.html
+[36m  DEBUG[0m -[33m [0m[33mTEMPLATE[0m ([33m[1m0.0002ms[0m[0m) /layouts/application.html
+[36m  DEBUG[0m -[33m [0m[33mTEMPLATE[0m ([33m[1m0.0003ms[0m[0m) /_resource.html
+[36m  DEBUG[0m -[33m [0m[33mTEMPLATE[0m ([33m[1m0.0002ms[0m[0m) /_method.html
+[36m  DEBUG[0m -[33m [0m[33mTEMPLATE[0m ([33m[1m0.0002ms[0m[0m) /_method.html
+[36m  DEBUG[0m -[33m [0m[33mTEMPLATE[0m ([33m[1m0.0002ms[0m[0m) /_header.html
+[36m  DEBUG[0m -[33m [0m[35m     GET[0m ([35m[1m0.0486ms[0m[0m) /api/applications/RestpieApp/resources/show/resources - [1m200[0m OK
+[36m  DEBUG[0m -[33m [0m[35m     GET[0m ([35m[1m0.0011ms[0m[0m) /api/applications/RestpieApp/resources/show/stylesheets/application.css - [1m404[0m Not Found

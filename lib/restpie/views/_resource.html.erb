@@ -1,0 +1,24 @@
+<div class="resource">
+	<div class="title">
+		<a class="link" href="<%=url_for(:resources, :show, :resource_id => resource.name, :application_id => application[:name])%>"><%= resource.name.capitalize %></a>
+	</div>
+	<p class="description">
+		<%= resource.description || "TBD"  %>
+	</p>
+	<table class="methods">
+		<thead>
+			<tr>
+				<th width='40%'>Api</th>
+				<th>Description</th>
+			</tr>
+		</thead>
+		<tbody>
+			<% resource.methods.each do |id, method| %>
+			<tr class="method">
+				<td><a class="link" href="<%=%>"><%= method.api%></a></td>
+				<td><%= method.api.description || "TBD" %></td>
+			</tr>
+			<% end %>
+		</tbody>
+	</table>
+</div>

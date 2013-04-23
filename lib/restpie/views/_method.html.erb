@@ -1,0 +1,30 @@
+<div class="method">
+	<div class="title">
+		<a class="link" href=""><%= method.api %></a>
+	</div>
+	<p class="short-desc">
+		<%= method.api.description || "TBD - Short Description"  %>
+	</p>
+	<p class="description">
+		<%= method.description || "TBD - Detailed Description"  %>
+	</p>
+	<table class="params">
+		<thead>
+			<tr>
+				<th width='40%'>Param name</th>
+				<th>Description</th>
+			</tr>
+		</thead>
+		<tbody>
+			<% method.params.each do |param| %>
+			<tr class="param">
+				<td>
+					<div><%= param.name%></div>
+					<div class="italic tmargin5"><%=!param.required ? 'Optional' : '' %> </div>
+				</td>
+				<td><%= param.description || "TBD" %></td>
+			</tr>
+			<% end %>
+		</tbody>
+	</table>
+</div>
